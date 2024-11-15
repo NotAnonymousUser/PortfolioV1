@@ -1,4 +1,5 @@
-'use client'
+"use client";
+
 import { useState } from "react";
 import { IoCopyOutline } from "react-icons/io5";
 
@@ -53,7 +54,7 @@ export const BentoGridItem = ({
   spareImg?: string;
 }) => {
   const leftLists = ["ReactJS", "Express", "Typescript"];
-  const rightLists = ["VueJS", "NextJS", "SQL"];
+  const rightLists = ["NodeJS", "NextJS", "SQL"];
 
   const [copied, setCopied] = useState(false);
 
@@ -67,7 +68,7 @@ export const BentoGridItem = ({
   };
 
   const handleCopy = () => {
-    const text = "hsu@jsmastery.pro";
+    const text = "https://github.com/NotAnonymousUser";
     navigator.clipboard.writeText(text);
     setCopied(true);
   };
@@ -186,7 +187,7 @@ export const BentoGridItem = ({
               </div>
 
               <MagicButton
-                title={copied ? "Email is Copied!" : "Copy my email address"}
+                title={copied ? "URL is Copied!" : "Copy my Github URL"}
                 icon={<IoCopyOutline />}
                 position="left"
                 handleClick={handleCopy}
