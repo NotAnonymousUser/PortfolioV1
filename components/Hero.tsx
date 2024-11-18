@@ -33,7 +33,7 @@ function Hero() {
             words="Transforming Concepts into Seamless User Experiences"
           />
           <p className="text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl ">
-            Hi, I&apos;m Muhammad Mubeen , a Next.js Developer from Karachi, Pakistan.
+            Hi, I&apos;m Muhammad Mubeen , a Full Stack Next JS Developer from Karachi, Pakistan.
           </p>
           <a href="#about">
             <MagicButton
