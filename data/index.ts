@@ -72,6 +72,14 @@ export const gridItems = [
 export const projects = [
   {
     id: 1,
+    title: "Ticket System App - Under Construction",
+    des: "A Ticket Web App for tracking, assigning, and resolving tasks or issues with status updates, priorities, and collaborative comments.",
+    img: "/ticketsystem.png",
+    iconLists: ["/next.svg", "/tail.svg", "/js.svg", "/sql.svg"],
+    link: "https://interactive-resume-builder-milestone-1-and-2.vercel.app/",
+  },
+  {
+    id: 2,
     title: "Tic Tac Toe",
     des: "A simple Tic Tac Toe game built using HTML, CSS, and JavaScript. It offers an engaging interface and smooth game functionality.",
     img: "/tictactoe.png",
@@ -79,7 +87,7 @@ export const projects = [
     link: "https://notanonymoususer.github.io/Tic-Tac-Toe/",
   },
   {
-    id: 2,
+    id: 3,
     title: "Simple Resume ",
     des: "A Simple & Minimalist Animated Resume using HTML, CSS Javascript.",
     img: "/resume.png",
